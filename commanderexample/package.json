@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "name": "commanderexample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js -p 3001 -u coder --mode production",
+    "dev": "node app.js -d -u dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "dotenv": "^16.3.1"
+  }
+}
